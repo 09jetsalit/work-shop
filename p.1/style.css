@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    border: 4px solid purple;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    background-color: plum;
+    /* border: 1px solid red; */
+}
+
+.man{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.foot{
+    display: flex;
+    flex-grow: 1;
+    height: auto;
+    justify-content: center;
+    background-color: plum;
+    padding-top: 10px;
+    /* border: 1px solid red; */
+}

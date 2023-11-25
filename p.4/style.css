@@ -36,8 +36,8 @@ main {
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: px;
-    flex: 1;
+    /* width: 80px; */
+    flex: 0.13;
     /* border: 1px solid red; */
 }
 
@@ -48,7 +48,6 @@ main {
     padding: 10px;
     background-color: aqua;
     /* border: 1px solid black; */
-    width: 60%;
     flex: 1;
 }
 
@@ -57,10 +56,10 @@ main {
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 30%;
+    /* width: 80px; */
     background-color: bisque;
     /* border: 1px solid green; */
-    flex: 1;
+    flex: 0.13;
 }
 
 footer {

@@ -98,7 +98,9 @@ main{
     /* border: 1px solid   blue; */
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
+    justify-content: space-between;
     flex-grow: 1;
     align-items: center;
+    padding-bottom: 6px;
+    padding-top: 2px;
 }
